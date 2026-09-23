@@ -3,11 +3,9 @@ title: "githubpage test"
 author: "Aimee Soto"
 date: "`r Sys.Date()`"
 output: 
-  html_document:
-    theme: flatly
+  prettydoc::html_pretty:
+    theme: cayman
     toc: yes
-    toc_float:
-      collapsed: true
 ---
 
 ```{r setup, include=FALSE}
