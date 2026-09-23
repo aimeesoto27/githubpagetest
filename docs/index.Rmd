@@ -2,7 +2,7 @@
 title: "githubpage test"
 author: "Aimee Soto"
 date: "`r Sys.Date()`"
-output: 
+output:
   prettydoc::html_pretty:
     theme: cayman
     toc: yes
