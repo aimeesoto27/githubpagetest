@@ -2,10 +2,12 @@
 title: "githubpage test"
 author: "Aimee Soto"
 date: "`r Sys.Date()`"
-output:
-  prettydoc::html_pretty:
-    theme: cayman
+output: 
+  html_document:
+    theme: flatly
     toc: yes
+    toc_float:
+      collapsed: true
 ---
 
 ```{r setup, include=FALSE}
